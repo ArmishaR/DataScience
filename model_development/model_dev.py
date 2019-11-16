@@ -43,10 +43,10 @@ for train_index, test_index in skf.split(X_train):
     #print(np.sqrt(mean_squared_log_error(y_valid,predictions)))
     
     # Note: returns negative values which causes error when calculating RSMLE
-    linear_reg = LinearRegression(fit_intercept=False).fit(X_sub_train,y_sub_train)
+    linear_reg = LinearRegression(fit_intercept=True).fit(X_sub_train,y_sub_train)
     predictions = linear_reg.predict(X_valid)
     
-    #rslme_linear.append(np.sqrt(mean_squared_log_error(y_valid,predictions)))
+    #rmsle_linear.append(np.sqrt(mean_squared_log_error(y_valid,predictions)))
     #print(predictions)
     #print(np.sqrt(mean_squared_log_error(y_valid,predictions)))
     
