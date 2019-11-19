@@ -1,0 +1,7 @@
+Random Forest
+training time: 995.375s 
+prediction time: 34.59375s 
+test RMSLE = 0.7265978614999763
+test R^2 = 0.8149842591966804
+test Adj R^2 = 0.8149787251697397
+test MAE = 951.4348919855543
