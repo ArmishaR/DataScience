@@ -1,0 +1,381 @@
+Features trained with: Index(['site_id', 'air_temperature', 'cloud_coverage', 'dew_temperature',
+       'precip_depth_1_hr', 'sea_level_pressure', 'wind_direction',
+       'wind_speed', 'building_id', 'primary_use', 'square_feet', 'year_built',
+       'meter', 'WeatherYear', 'WeatherMonth', 'WeatherDay', 'WeatherHour'],
+      dtype='object')Decision Tree
+test RMSLE = 0.8305787792765162
+test R^2 = 0.8038025914531013
+test Adj R^2 = 0.803791988042107
+test MAE = 805.9789090314116
+Random Forest
+test RMSLE = 0.7878462660257595
+test R^2 = 0.8056906079492294
+test Adj R^2 = 0.8056801065753366
+test MAE = 892.4883842190337
+KNN
+test RMSLE = 0.9585058738288109
+test R^2 = 0.4689203500633027
+test Adj R^2 = 0.4688916480746237
+test MAE = 1474.9608266982546
+Multi-Layer Perceptron
+test RMSLE = 3.226702231118965
+test R^2 = 0.00030152755545997945
+test Adj R^2 = 0.00024749924870426376
+test MAE = 2659.9274339895396
+Features trained with: Index(['site_id', 'air_temperature', 'cloud_coverage', 'dew_temperature',
+       'precip_depth_1_hr', 'sea_level_pressure', 'wind_direction',
+       'wind_speed', 'building_id', 'primary_use', 'square_feet', 'year_built',
+       'meter', 'WeatherMonth', 'WeatherDay', 'WeatherHour'],
+      dtype='object')Decision Tree
+test RMSLE = 0.8329527926211255
+test R^2 = 0.8064478182890247
+test Adj R^2 = 0.8064379731901953
+test MAE = 832.4366507762828
+Random Forest
+test RMSLE = 0.7889275197870746
+test R^2 = 0.844248926264228
+test Adj R^2 = 0.8442410039318619
+test MAE = 810.5567230815832
+KNN
+test RMSLE = 0.9585058738288109
+test R^2 = 0.4689203500633027
+test Adj R^2 = 0.46889333651277754
+test MAE = 1474.9608266982546
+Multi-Layer Perceptron
+test RMSLE = 2.754242808472565
+test R^2 = -2.273484148052063e-06
+test Adj R^2 = -5.31389465003862e-05
+test MAE = 2378.8707241824663
+Features trained with: Index(['air_temperature', 'cloud_coverage', 'dew_temperature',
+       'precip_depth_1_hr', 'sea_level_pressure', 'wind_direction',
+       'wind_speed', 'building_id', 'primary_use', 'square_feet', 'year_built',
+       'meter', 'WeatherMonth', 'WeatherDay', 'WeatherHour'],
+      dtype='object')Decision Tree
+test RMSLE = 0.8312451684894724
+test R^2 = 0.8113428485963303
+test Adj R^2 = 0.8113338522704783
+test MAE = 824.07459297996
+Random Forest
+test RMSLE = 0.7893867444169621
+test R^2 = 0.8423598244711588
+test Adj R^2 = 0.8423523072242594
+test MAE = 836.7601088485201
+KNN
+test RMSLE = 0.9585058738288109
+test R^2 = 0.4689203500633027
+test Adj R^2 = 0.4688950249401961
+test MAE = 1474.9608266982546
+Multi-Layer Perceptron
+test RMSLE = 2.9716873916781616
+test R^2 = 8.970503651017925e-05
+test Adj R^2 = 4.2023203251195795e-05
+test MAE = 2485.3039679791336
+Features trained with: Index(['air_temperature', 'cloud_coverage', 'dew_temperature',
+       'precip_depth_1_hr', 'sea_level_pressure', 'wind_direction',
+       'wind_speed', 'building_id', 'square_feet', 'year_built', 'meter',
+       'WeatherMonth', 'WeatherDay', 'WeatherHour'],
+      dtype='object')Decision Tree
+test RMSLE = 0.8279514059040174
+test R^2 = 0.7847425394626298
+test Adj R^2 = 0.7847329590213519
+test MAE = 840.6064234953108
+Random Forest
+test RMSLE = 0.7988651629052471
+test R^2 = 0.8839231078683587
+test Adj R^2 = 0.8839179416462635
+test MAE = 753.1163216666704
+KNN
+test RMSLE = 0.958670828345249
+test R^2 = 0.46892034596328147
+test Adj R^2 = 0.4688967092566756
+test MAE = 1475.0000173490735
+Multi-Layer Perceptron
+test RMSLE = 2.8670397804443604
+test R^2 = -1.4267832277869985e-06
+test Adj R^2 = -4.593374211925294e-05
+test MAE = 2440.305676422711
+Features trained with: Index(['air_temperature', 'cloud_coverage', 'dew_temperature',
+       'precip_depth_1_hr', 'sea_level_pressure', 'wind_direction',
+       'wind_speed', 'square_feet', 'year_built', 'meter', 'WeatherMonth',
+       'WeatherDay', 'WeatherHour'],
+      dtype='object')Decision Tree
+test RMSLE = 0.8559824365168325
+test R^2 = 0.8091642052588159
+test Adj R^2 = 0.8091563184543321
+test MAE = 818.6500032997895
+Random Forest
+test RMSLE = 0.8425219324913413
+test R^2 = 0.8418696587994765
+test Adj R^2 = 0.8418631236361666
+test MAE = 822.2800114862046
+KNN
+test RMSLE = 1.890494481469018
+test R^2 = -0.1588126524522837
+test Adj R^2 = -0.15886054351399825
+test MAE = 3134.2869707160175
+Multi-Layer Perceptron
+test RMSLE = 4.042374928339978
+test R^2 = -4.69516703205386e-06
+test Adj R^2 = -4.602306112255761e-05
+test MAE = 3701.753385034639
+Features trained with: Index(['air_temperature', 'cloud_coverage', 'dew_temperature',
+       'precip_depth_1_hr', 'sea_level_pressure', 'wind_direction',
+       'wind_speed', 'square_feet', 'meter', 'WeatherMonth', 'WeatherDay',
+       'WeatherHour'],
+      dtype='object')Decision Tree
+test RMSLE = 1.267051161184069
+test R^2 = 0.8057821066785588
+test Adj R^2 = 0.8057746975524147
+test MAE = 878.1095472381134
+Random Forest
+test RMSLE = 1.23303580520703
+test R^2 = 0.8598531560720625
+test Adj R^2 = 0.8598478096766939
+test MAE = 836.395102906182
+KNN
+test RMSLE = 1.9179378430099359
+test R^2 = -0.24147314018541777
+test Adj R^2 = -0.2415205005544483
+test MAE = 3299.04601879055
+Multi-Layer Perceptron
+test RMSLE = 4.042620644647637
+test R^2 = -4.680201702633724e-06
+test Adj R^2 = -4.2828905169045584e-05
+test MAE = 3702.272237111019
+Features trained with: Index(['air_temperature', 'cloud_coverage', 'dew_temperature',
+       'sea_level_pressure', 'wind_direction', 'wind_speed', 'square_feet',
+       'meter', 'WeatherMonth', 'WeatherDay', 'WeatherHour'],
+      dtype='object')Decision Tree
+test RMSLE = 1.2644056425684935
+test R^2 = 0.8114520018394407
+test Adj R^2 = 0.8114454084347282
+test MAE = 850.4750969462883
+Random Forest
+test RMSLE = 1.226447905784783
+test R^2 = 0.8522171220250082
+test Adj R^2 = 0.852211954150867
+test MAE = 857.1207626563727
+KNN
+test RMSLE = 1.9173133777991787
+test R^2 = -0.2414716755637376
+test Adj R^2 = -0.2415150890461184
+test MAE = 3298.9326598161642
+Multi-Layer Perceptron
+test RMSLE = 4.042092256344569
+test R^2 = -4.7124077535709574e-06
+test Adj R^2 = -3.9681942554326e-05
+test MAE = 3701.156689621161
+Features trained with: Index(['air_temperature', 'dew_temperature', 'sea_level_pressure',
+       'wind_direction', 'wind_speed', 'square_feet', 'meter', 'WeatherMonth',
+       'WeatherDay', 'WeatherHour'],
+      dtype='object')Decision Tree
+test RMSLE = 1.213987956802174
+test R^2 = 0.8876338199665519
+test Adj R^2 = 0.8876302478192476
+test MAE = 704.1322096923658
+Random Forest
+test RMSLE = 1.1858591613448906
+test R^2 = 0.8377163362770321
+test Adj R^2 = 0.8377111772411752
+test MAE = 871.0207550294082
+KNN
+test RMSLE = 1.9106801438002288
+test R^2 = -0.25528534892365595
+test Adj R^2 = -0.2553252547402811
+test MAE = 3339.0484684489766
+Multi-Layer Perceptron
+test RMSLE = 4.042203294298922
+test R^2 = -4.705632191903675e-06
+test Adj R^2 = -3.6496017096432354e-05
+test MAE = 3701.391055320905
+Features trained with: Index(['air_temperature', 'dew_temperature', 'sea_level_pressure',
+       'wind_direction', 'square_feet', 'meter', 'WeatherMonth', 'WeatherDay',
+       'WeatherHour'],
+      dtype='object')Decision Tree
+test RMSLE = 1.1940590913421703
+test R^2 = 0.8622134461747406
+test Adj R^2 = 0.862209503947001
+test MAE = 756.8599429945817
+Random Forest
+test RMSLE = 1.1575983648835506
+test R^2 = 0.8605100260196534
+test Adj R^2 = 0.860506035055154
+test MAE = 826.2460447696262
+KNN
+test RMSLE = 1.8932339044041981
+test R^2 = -0.27810710524365545
+test Adj R^2 = -0.2781436733204705
+test MAE = 3414.6314672530702
+Multi-Layer Perceptron
+test RMSLE = 4.042384046693236
+test R^2 = -4.694611323907694e-06
+test Adj R^2 = -3.3305866466770695e-05
+test MAE = 3701.7726367117157
+Features trained with: Index(['air_temperature', 'dew_temperature', 'sea_level_pressure',
+       'square_feet', 'meter', 'WeatherMonth', 'WeatherDay', 'WeatherHour'],
+      dtype='object')Decision Tree
+test RMSLE = 1.1626270133307337
+test R^2 = 0.8142630983514041
+test Adj R^2 = 0.8142583746855898
+test MAE = 845.3979787830677
+Random Forest
+test RMSLE = 1.1342483620872406
+test R^2 = 0.8446657622822049
+test Adj R^2 = 0.8446618118177469
+test MAE = 837.4967844668232
+KNN
+test RMSLE = 1.874011832785503
+test R^2 = -0.29873382880292665
+test Adj R^2 = -0.2987668582361436
+test MAE = 3561.2184636720253
+Multi-Layer Perceptron
+test RMSLE = 4.041914185652495
+test R^2 = -4.723282143626051e-06
+test Adj R^2 = -3.0155428817346674e-05
+test MAE = 3700.7809072655373
+Features trained with: Index(['air_temperature', 'dew_temperature', 'sea_level_pressure',
+       'square_feet', 'meter', 'WeatherMonth', 'WeatherDay'],
+      dtype='object')Decision Tree
+test RMSLE = 1.1758892007338093
+test R^2 = 0.8508891597483998
+test Adj R^2 = 0.850885841591956
+test MAE = 762.8792823040861
+Random Forest
+test RMSLE = 1.121142649688398
+test R^2 = 0.8663169195850586
+test Adj R^2 = 0.8663139447418214
+test MAE = 780.2692357422939
+KNN
+test RMSLE = 1.7985657148782628
+test R^2 = -0.11146787956566762
+test Adj R^2 = -0.11149261300758573
+test MAE = 3142.191509915823
+Multi-Layer Perceptron
+test RMSLE = 4.0425976571783115
+test R^2 = -4.681600907829875e-06
+test Adj R^2 = -2.6934657577193377e-05
+test MAE = 3702.2236909937174
+Features trained with: Index(['air_temperature', 'dew_temperature', 'square_feet', 'meter',
+       'WeatherMonth', 'WeatherDay'],
+      dtype='object')Decision Tree
+test RMSLE = 1.1337345453961107
+test R^2 = 0.8365332555855288
+test Adj R^2 = 0.8365301376374147
+test MAE = 794.3673576256283
+Random Forest
+test RMSLE = 1.073881256753659
+test R^2 = 0.8737781228614734
+test Adj R^2 = 0.8737757153181825
+test MAE = 770.9389603577679
+KNN
+test RMSLE = 1.8314263725877629
+test R^2 = -0.08987575038825057
+test Adj R^2 = -0.08989653856784496
+test MAE = 3008.8645032170593
+Multi-Layer Perceptron
+test RMSLE = 4.04230266085299
+test R^2 = -4.699572263566765e-06
+test Adj R^2 = -2.37735605439493e-05
+test MAE = 3701.600813697303
+Features trained with: Index(['air_temperature', 'dew_temperature', 'square_feet', 'meter',
+       'WeatherMonth'],
+      dtype='object')Decision Tree
+test RMSLE = 1.1965878138260766
+test R^2 = 0.44753767071604733
+test Adj R^2 = 0.44752888940190305
+test MAE = 1396.9086060601578
+Random Forest
+test RMSLE = 1.076734117860556
+test R^2 = 0.7605297468052856
+test Adj R^2 = 0.7605259404579384
+test MAE = 1010.2710011816146
+KNN
+test RMSLE = 1.8881597636966934
+test R^2 = -0.024748618568589453
+test Adj R^2 = -0.02476490680954546
+test MAE = 3033.536110939273
+Multi-Layer Perceptron
+test RMSLE = 4.042155005981827
+test R^2 = -4.70857825751736e-06
+test Adj R^2 = -2.0603518104511664e-05
+test MAE = 3701.289130245477
+Features trained with: Index(['air_temperature', 'square_feet', 'meter', 'WeatherMonth'], dtype='object')Decision Tree
+test RMSLE = 1.1255164039639305
+test R^2 = 0.5328502742242787
+test Adj R^2 = 0.5328443340176998
+test MAE = 1282.1868860443865
+Random Forest
+test RMSLE = 1.0253236066689753
+test R^2 = 0.6867377510485322
+test Adj R^2 = 0.6867337676522687
+test MAE = 1198.7513743468196
+KNN
+test RMSLE = 1.7311262903109064
+test R^2 = -0.5107968639857976
+test Adj R^2 = -0.5108160750544883
+test MAE = 3750.024266415744
+Multi-Layer Perceptron
+test RMSLE = 4.042545387398548
+test R^2 = -4.6847831234320125e-06
+test Adj R^2 = -1.7400694275027107e-05
+test MAE = 3702.1133095334103
+Features trained with: Index(['square_feet', 'meter', 'WeatherMonth'], dtype='object')Decision Tree
+test RMSLE = 1.049695746995483
+test R^2 = 0.6859166999183411
+test Adj R^2 = 0.6859137045503925
+test MAE = 1296.4995740361726
+Random Forest
+test RMSLE = 1.0493455959721774
+test R^2 = 0.6788515934874155
+test Adj R^2 = 0.6788485307405474
+test MAE = 1310.2016142908626
+KNN
+test RMSLE = 1.0972454137032026
+test R^2 = 0.6387808921808513
+test Adj R^2 = 0.6387774472853802
+test MAE = 1333.335862965194
+Multi-Layer Perceptron
+test RMSLE = 3.9043093594675478
+test R^2 = 0.0001416776121719865
+test Adj R^2 = 0.00013214210496315104
+test MAE = 3436.1388239518033
+Features trained with: Index(['meter', 'WeatherMonth'], dtype='object')Decision Tree
+test RMSLE = 2.8497167862487927
+test R^2 = 0.00205455385623754
+test Adj R^2 = 0.0020482090334881242
+test MAE = 4115.918501689695
+Random Forest
+test RMSLE = 2.847172881437787
+test R^2 = 0.0020808657442035194
+test Adj R^2 = 0.002074521088742065
+test MAE = 4104.211810988494
+KNN
+test RMSLE = 2.653928737622449
+test R^2 = -0.00012333034913547536
+test Adj R^2 = -0.00012968901862309146
+test MAE = 2379.1889662459907
+Multi-Layer Perceptron
+test RMSLE = 4.04226320031928
+test R^2 = -4.701978398857776e-06
+test Adj R^2 = -1.1059893660680942e-05
+test MAE = 3701.517511262348
+Features trained with: Index(['WeatherMonth'], dtype='object')Decision Tree
+test RMSLE = 3.887679397589538
+test R^2 = 0.00013946301219136537
+test Adj R^2 = 0.0001362845229567755
+test MAE = 4150.685009978661
+Random Forest
+test RMSLE = 3.90378804042378
+test R^2 = 0.00015369474269255612
+test Adj R^2 = 0.00015051629869966554
+test MAE = 4209.292253506191
+KNN
+test RMSLE = 2.5171164019085963
+test R^2 = -0.00015520239273136838
+test Adj R^2 = -0.0001583818186874364
+test MAE = 2363.164504111605
+Multi-Layer Perceptron
+test RMSLE = 4.042459482043592
+test R^2 = -4.690015050323737e-06
+test Adj R^2 = -7.868962537571633e-06
+test MAE = 3701.931911467726
