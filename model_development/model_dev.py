@@ -31,11 +31,11 @@ data = df.drop(columns=['meter_reading'])
 
 # Open to print results
 f = open('rf_results.txt','a+')
+print(len(data))
 
 X_train, X_test, y_train, y_test = train_test_split(data, labels, test_size = 0.3, random_state=42)
 
 """ Model Predictions of Test Set """
-
 '''
 t = time.process_time()
 reg_tree = tree.DecisionTreeRegressor(criterion='friedman_mse')
@@ -72,6 +72,7 @@ r2 = r2_score(y_test, predictions, multioutput='variance_weighted')
 adj_r2 = 1 - ((1 - r2)*((len(y_test)-1)/(len(y_test)-len(X_test.columns) - 1)))
 r2_rf = r2
 adj_r2_rf =adj_r2
+
 
 # Note: returns negative values which causes error when calculating RSMLE
 '''linear_reg = LinearRegression(fit_intercept=False).fit(X_sub_train,y_sub_train)
@@ -139,7 +140,7 @@ f.write('test Adj R^2 = '+ str(adj_r2_dt) +'\n')
 f.write('test MAE = ' + str(mae_dt) +'\n')
 '''
 
-
+'''
 print('training time: ', elapsed_train)
 print('prediction time: ', elapsed_test)
 print('test RMSLE = ',rmsle_rf)
@@ -154,7 +155,7 @@ f.write('test RMSLE = ' + str(rmsle_rf) +'\n')
 f.write('test R^2 = ' + str(r2_rf) +'\n')
 f.write('test Adj R^2 = '+ str(adj_r2_rf) +'\n')
 f.write('test MAE = ' + str(mae_rf) +'\n')
-
+'''
 
 '''print('test RMSLE = ', rslme_linear)
 print('test R^2 = ', r2_linear)
@@ -216,7 +217,32 @@ labels_preds = labels.append(preds)'''
 ax = sns.scatterplot(x="idx", y="diff", data=labels)#, hue="category", style="category")
 plt.show()'''
 
+print(predictions)
+print('*')
+print(y_test)
 
+'''sns.set(style="darkgrid")
+ax = sns.distplot(predictions)
+plt.show()
+
+ax = sns.distplot(y_test)
+plt.show()'''
+plt.hist(predictions, 50, facecolor='g', alpha=0.75, log=True)
+plt.hist(y_test, 50, facecolor='b', alpha=0.5, log=True)
+plt.title("Comparison of true and predicted meter readings")
+plt.show()
+
+plt.subplot(2, 1, 1)
+plt.hist(predictions, 50, facecolor='g', alpha=0.75, log=True)
+plt.title("Predicted Meter Readings")
+
+plt.subplot(2, 1, 2)
+plt.hist(y_test, 50, facecolor='b', alpha=0.5, log=True)
+plt.title("True Meter Readings")
+plt.show()
+
+
+'''
 visualizer = ResidualsPlot(rf)
 visualizer.fit(X_train, y_train)  # Fit the training data to the visualizer
 visualizer.score(X_test, y_test)  # Evaluate the model on the test data
@@ -226,3 +252,4 @@ visualizer = PredictionError(rf)
 visualizer.fit(X_train, y_train)  # Fit the training data to the visualizer
 visualizer.score(X_test, y_test)  # Evaluate the model on the test data
 visualizer.show()
+'''
