@@ -5,3 +5,31 @@ test RMSLE = 0.7265978614999763
 test R^2 = 0.8149842591966804
 test Adj R^2 = 0.8149787251697397
 test MAE = 951.4348919855543
+Random Forest
+training time: 729.515625s 
+prediction time: 31.5s 
+test RMSLE = 0.7260618535848626
+test R^2 = 0.8194953896965486
+test Adj R^2 = 0.8194899906025471
+test MAE = 910.4204751820945
+Random Forest
+training time: 694.703125s 
+prediction time: 30.6875s 
+test RMSLE = 0.7270693504586113
+test R^2 = 0.8178833048718113
+test Adj R^2 = 0.8178778575585567
+test MAE = 934.5497207382965
+Random Forest
+training time: 670.3125s 
+prediction time: 29.953125s 
+test RMSLE = 0.7260253638383309
+test R^2 = 0.8282143774168291
+test Adj R^2 = 0.8282092391174646
+test MAE = 923.6010522137686
+Random Forest
+training time: 654.625s 
+prediction time: 29.578125s 
+test RMSLE = 0.7276677326619548
+test R^2 = 0.8209369790757689
+test Adj R^2 = 0.820931623101312
+test MAE = 911.3671617077953
