@@ -1,1 +1,0 @@
-{'site_id': 0.0, 'air_temperature': 0.0018094119539760754, 'dew_temperature': 0.0, 'sea_level_pressure': 0.0, 'wind_direction': 0.38637681503261745, 'wind_speed': 0.06135711267503058, 'building_id': 0.0, 'primary_use': 0.0, 'square_feet': 0.22007791967100174, 'meter': 0.0, 'WeatherYear': 0.0, 'WeatherMonth': 0.3303787406673741, 'WeatherDay': 0.0, 'WeatherHour': 0.0}
