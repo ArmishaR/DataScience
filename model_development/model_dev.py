@@ -14,12 +14,12 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.neural_network import MLPRegressor
 from sklearn.model_selection import KFold
 from sklearn.metrics import mean_squared_error, mean_squared_log_error, mean_absolute_error, r2_score
-from yellowbrick.regressor import ResidualsPlot, PredictionError, CooksDistance, AlphaSelection
+#from yellowbrick.regressor import ResidualsPlot, PredictionError, CooksDistance, AlphaSelection
 import matplotlib.pyplot as plt
 import seaborn as sns
 import time
 
-df = pd.read_csv('training_data_woEncoding_threshold_0.8.csv')
+df = pd.read_csv('threshold_0.8/training_data_woEncoding_threshold_0.8.csv')
 
 # Encoding
 le = preprocessing.LabelEncoder()
@@ -27,6 +27,7 @@ le.fit(df['primary_use'])
 df['primary_use'] = le.transform(df['primary_use'])
 
 labels = df['meter_reading']
+print(df.shape)
 data = df.drop(columns=['meter_reading'])
 
 # Open to print results
@@ -56,7 +57,7 @@ adj_r2_dt = adj_r2
 
 t = time.process_time()
 print("1")
-rf = RandomForestRegressor(n_estimators=25, criterion='mse')
+rf = RandomForestRegressor(n_estimators=25, criterion='friedman_mse')
 print("2")
 rf = rf.fit(X_train, y_train)
 elapsed_train = time.process_time() - t
@@ -90,7 +91,7 @@ print('adj r2 ', adj_r2)'''
 # K-Nearest Neighbors (KNN) Results
 '''
 t = time.process_time()
-knn_reg = KNeighborsRegressor(n_neighbors=2,metric='manhattan').fit(X_train,y_train)
+knn_reg = KNeighborsRegressor(n_neighbors=3,metric='manhattan').fit(X_train,y_train)
 elapsed_train = time.process_time() - t
 t = time.process_time()
 predictions = knn_reg.predict(X_test)
@@ -107,7 +108,7 @@ adj_r2_knn = adj_r2
 
 '''
 t = time.process_time()
-nn = MLPRegressor(hidden_layer_sizes=(5,),activation='logistic',max_iter=1000).fit(X_train,y_train)
+nn = MLPRegressor(hidden_layer_sizes=(5,),activation='tanh',max_iter=1000).fit(X_train,y_train)
 elapsed_train = time.process_time() - t
 t = time.process_time()
 predictions = nn.predict(X_test)
