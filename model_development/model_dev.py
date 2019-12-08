@@ -19,7 +19,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import time
 
-df = pd.read_csv('threshold_0.8/training_data_woEncoding_threshold_0.8.csv')
+df = pd.read_csv('training_data_series5/training_data_woEncoding_threshold_0.8.csv')
 
 # Encoding
 le = preprocessing.LabelEncoder()
@@ -37,7 +37,7 @@ X_train, X_test, y_train, y_test = train_test_split(data, labels, test_size = 0.
 """ Model Predictions of Test Set """
 '''
 t = time.process_time()
-reg_tree = tree.DecisionTreeRegressor(criterion='friedman_mse')
+reg_tree = tree.DecisionTreeRegressor(criterion='mse')
 reg_tree = reg_tree.fit(X_train, y_train)
 elapsed_train = time.process_time() - t
 t = time.process_time()
@@ -55,7 +55,7 @@ adj_r2_dt = adj_r2
 '''
 t = time.process_time()
 print("1")
-rf = RandomForestRegressor(n_estimators=25, criterion='friedman_mse')
+rf = RandomForestRegressor(n_estimators=25, criterion='mse')
 print("2")
 rf = rf.fit(X_train, y_train)
 elapsed_train = time.process_time() - t
@@ -77,7 +77,7 @@ adj_r2_rf =adj_r2
 # K-Nearest Neighbors (KNN) Results
 '''
 t = time.process_time()
-knn_reg = KNeighborsRegressor(n_neighbors=3,metric='manhattan').fit(X_train,y_train)
+knn_reg = KNeighborsRegressor(n_neighbors=8,metric='manhattan').fit(X_train,y_train)
 elapsed_train = time.process_time() - t
 t = time.process_time()
 predictions = knn_reg.predict(X_test)
@@ -94,7 +94,7 @@ adj_r2_knn = adj_r2
 
 
 t = time.process_time()
-nn = MLPRegressor(hidden_layer_sizes=(5,),activation='tanh',max_iter=1000).fit(X_train,y_train)
+nn = MLPRegressor(hidden_layer_sizes=(2,),activation='tanh').fit(X_train,y_train)
 elapsed_train = time.process_time() - t
 t = time.process_time()
 predictions = nn.predict(X_test)
