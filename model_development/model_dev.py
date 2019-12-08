@@ -95,7 +95,7 @@ adj_r2_knn = adj_r2
 
 
 t = time.process_time()
-nn = MLPRegressor(hidden_layer_sizes=(2,),activation='tanh').fit(X_train,y_train)
+nn = MLPRegressor(hidden_layer_sizes=(2,),activation='logistic').fit(X_train,y_train)
 elapsed_train = time.process_time() - t
 t = time.process_time()
 predictions = nn.predict(X_test)
