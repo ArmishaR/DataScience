@@ -20,6 +20,7 @@ import seaborn as sns
 import time
 
 df = pd.read_csv('training_data_series5/training_data_woEncoding_threshold_0.8.csv')
+df = df.drop(columns=df.columns[0], axis=1)
 
 # Encoding
 le = preprocessing.LabelEncoder()
