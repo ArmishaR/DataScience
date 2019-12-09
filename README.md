@@ -7,5 +7,7 @@ Within the analysis.py file you will be able to find the code used for the explo
 ## Preprocessing
 
 ## Model Development
+All scripts pertaining to model development can be accessed the *model_development* folder. There is a script for each model with the naming convention of **modelname_para_opt.py**. These scripts are used to test each model with different parameters to determine which results in the best performance of each model. Within each script, a 10-fold cross validation of the training data is conducted across each set of parameters within each model. 
 
 ## Model Evaluation
+After which, the **model_dev.py** script is used to test the validation set with the parameters of each model that resulted in the best performance from the cross validation. 
