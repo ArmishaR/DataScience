@@ -12,7 +12,7 @@ from yellowbrick.regressor import ResidualsPlot, PredictionError
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# this is our final training data
+# this is our final training data (the commented-out is the train data w/o imputation of NaNs)
 print("here")
 train = pd.read_csv('train_no_na.csv')#pd.read_csv(r'final_wo_imputation\train.csv')
 print("here")
@@ -26,6 +26,8 @@ le.fit(train['primary_use'])
 train['primary_use'] = le.transform(train['primary_use'])
 
 imp_mean = SimpleImputer(missing_values=np.nan, strategy='mean')
+
+# uncomment this code if you want to use another train file - it removes all NaNs
 '''imp_mean.fit(train.to_numpy())
 print(train.head())
 train = pd.DataFrame(imp_mean.transform(train.to_numpy()), columns=train.columns)
@@ -79,11 +81,13 @@ f.write('test R^2 = ' + str(r2_rf) +'\n')
 f.write('test Adj R^2 = '+ str(adj_r2_rf) +'\n')
 f.write('test MAE = ' + str(mae_rf) +'\n')
 
-# this is our test data
+# this is our test data (the commented-out is the test data w/o imputation of NaNs)
 test = pd.read_csv('test_no_na.csv')#pd.read_csv(r'final_wo_imputation\test.csv')
 ids = test['row_id']
 print(test.head())
 print(test.columns)
+
+# uncomment this code if you want to use another train file - it removes all NaNs and performs encoding
 '''
 # Encoding
 le = preprocessing.LabelEncoder()
