@@ -1,0 +1,70 @@
+Random Forest
+training time: 467.515625s 
+prediction time: 26.90625s 
+test RMSLE = 0.8943219090807798
+test R^2 = 0.8409528170444491
+test Adj R^2 = 0.8409483240667192
+test MAE = 729.1064601169202
+Random Forest
+training time: 432.375s 
+prediction time: 27.671875s 
+test RMSLE = 0.9312590338258709
+test R^2 = 0.7713022703766192
+test Adj R^2 = 0.7712961898600328
+test MAE = 845.7692351419893
+Random Forest
+training time: 432.3125s 
+prediction time: 28.265625s 
+test RMSLE = 0.9305351086721495
+test R^2 = 0.7815586710879374
+test Adj R^2 = 0.781552863264109
+test MAE = 827.9236907977197
+Random Forest
+training time: 431.15625s 
+prediction time: 28.296875s 
+test RMSLE = 0.9293665067354403
+test R^2 = 0.7481458442684301
+test Adj R^2 = 0.7481391480787748
+test MAE = 893.7864211210176
+Random Forest
+training time: 429.078125s 
+prediction time: 27.75s 
+test RMSLE = 0.9301465090395213
+test R^2 = 0.7623187087705611
+test Adj R^2 = 0.7623123894029137
+test MAE = 850.385902240587
+Random Forest
+training time: 551.40625s 
+prediction time: 27.875s 
+test RMSLE = 0.9072951243867365
+test R^2 = 0.8208798965821479
+test Adj R^2 = 0.8208745389002899
+test MAE = 803.9513322910769
+Random Forest
+training time: 463.890625s 
+prediction time: 27.71875s 
+test RMSLE = 0.8943773566583494
+test R^2 = 0.8688347130919347
+test Adj R^2 = 0.868831007759328
+test MAE = 678.8317373333877
+Random Forest
+training time: 564.890625s 
+prediction time: 29.734375s 
+test RMSLE = 0.8953397319725961
+test R^2 = 0.8610196515400964
+test Adj R^2 = 0.8610157254371694
+test MAE = 702.2287873715161
+Random Forest
+training time: 520.921875s 
+prediction time: 27.75s 
+test RMSLE = 0.8948892674200204
+test R^2 = 0.8198969814864889
+test Adj R^2 = 0.8198918936953301
+test MAE = 762.4112861592245
+Random Forest
+training time: 463.859375s 
+prediction time: 27.78125s 
+test RMSLE = 0.8954147180387306
+test R^2 = 0.8416176591617516
+test Adj R^2 = 0.8416131849653717
+test MAE = 747.5381915137968
