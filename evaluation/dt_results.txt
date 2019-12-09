@@ -1,0 +1,43 @@
+Decision Tree
+training time: 36.71875s
+prediction time: 1.28125s
+test RMSLE = 0.7621342608603151
+test R^2 = 0.5969715558563742
+test Adj R^2 = 0.5969595008265801
+test MAE = 1166.2948865220133
+Decision Tree
+training time: 35.03125s
+prediction time: 1.28125s
+test RMSLE = 0.7631723325236495
+test R^2 = 0.6185390795715178
+test Adj R^2 = 0.6185276696503872
+test MAE = 1129.6206265828562
+Decision Tree
+training time: 39.96875s
+prediction time: 1.4375s
+test RMSLE = 0.7618783549282105
+test R^2 = 0.6236638080730031
+test Adj R^2 = 0.6236525514382117
+test MAE = 1107.946145235284
+Decision Tree
+training time: 41.953125s
+prediction time: 1.46875s
+test RMSLE = 0.764446070576004
+test R^2 = 0.6272103856354381
+test Adj R^2 = 0.6271992350827329
+test MAE = 1085.300854552523
+Decision Tree
+training time: 41.671875s
+prediction time: 1.53125s
+test RMSLE = 0.7624999934157395
+test R^2 = 0.6431539704916482
+test Adj R^2 = 0.6431432968293296
+test MAE = 1087.3337297773728
+*
+Decision Tree (graphed)
+training time: 2.296875s
+prediction time: 0.3125s
+test RMSLE = 0.0022871340060992003
+test R^2 = 0.7905131189235328
+test Adj R^2 = 0.7905072010576901
+test MAE = 5.2000886737060966e-05

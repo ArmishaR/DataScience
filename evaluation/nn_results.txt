@@ -1,0 +1,50 @@
+Multi-Layer Perceptron
+training time: 685.96875s
+prediction time: 1.203125s
+test RMSLE = 2.4172660050906574
+test R^2 = -0.000172831365489845
+test Adj R^2 = -0.00020274764920769073
+test MAE = 2443.501793493355
+Multi-Layer Perceptron
+training time: 668.375s
+prediction time: 1.1875s
+test RMSLE = 2.5529425669913524
+test R^2 = -0.0001637819495072801
+test Adj R^2 = -0.00019369796254697924
+test MAE = 2469.442772617558
+Multi-Layer Perceptron
+training time: 640.84375s
+prediction time: 1.15625s
+test RMSLE = 2.5511891014060617
+test R^2 = -0.00016391111531111058
+test Adj R^2 = -0.0001938271322141638
+test MAE = 2469.0488653660027
+Multi-Layer Perceptron
+training time: 724.09375s
+prediction time: 1.25s
+test RMSLE = 2.318489228498152
+test R^2 = -0.00017905386504590837
+test Adj R^2 = -0.00020897033488553873
+test MAE = 2430.1347076767825
+Multi-Layer Perceptron
+training time: 647.671875s
+prediction time: 1.0625s
+test RMSLE = 2.5040363298058836
+test R^2 = -0.0001671326553960295
+test Adj R^2 = -0.0001970487686591138
+test MAE = 2459.0879930462756
+Multi-Layer Perceptron (graphed)
+training time: 329.84375s
+prediction time: 0.4375s
+test RMSLE = 2.2897778372772564
+test R^2 = -0.0001808576932316175
+test Adj R^2 = -0.0002107742170258664
+test MAE = 2427.087687142927
+*
+Multi-Layer Perceptron (graphed)
+training time: 122.015625s
+prediction time: 0.390625s
+test RMSLE = 0.005347545069399719
+test R^2 = -9.506078279764019e-05
+test Adj R^2 = -0.0001233128068351963
+test MAE = 0.00010739692738562646
