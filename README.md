@@ -7,8 +7,10 @@ Within the analysis.py file you will be able to find the code used for the explo
 ## Preprocessing
 
 ## Model Development
+All scripts pertaining to model development can be accessed the *model_development* folder. There is a script for each model with the naming convention of **modelname_para_opt.py**. These scripts are used to test each model with different parameters to determine which results in the best performance of each model. Within each script, a 10-fold cross validation of the training data is conducted across each set of parameters within each model. 
 
 ## Model Evaluation
+<<<<<<< HEAD
 The results of the model evaluation are stored in the evaluation/ folder. The results are broken into plots and text files.
 The plots include:
 - residual plots for every model
@@ -22,3 +24,6 @@ There is a text file for each model type, plus the test data. Each text file inc
 - adjusted R^2 score
 - mean absolute error (MAE)
 The code used to generate the evaluations is found in the model_development/ folder. The file model_dev.py can be used to generate plots and text files. The file test_predictions.py can be used to generate predictions for the test data.
+=======
+After which, the **model_dev.py** script is used to test the validation set with the parameters of each model that resulted in the best performance from the cross validation. 
+>>>>>>> a992baddaa318797e1a9bc385c76511643283997
